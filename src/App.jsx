@@ -250,7 +250,7 @@ const App = () => {
                 transition={{ delay: 0.6 }}
                 className="hero-bio"
               >
-                Computer Science Engineer at <strong>BUP '27</strong>, building intelligent
+                Computer Science Engineer from <strong>BUP '24 batch</strong>, building intelligent
                 applications — from RAG systems with LangChain to full-stack platforms with React & Node.
               </motion.p>
 
