@@ -13,7 +13,6 @@ import {
   Menu,
   Heart,
   Phone,
-  GraduationCap,
   Sparkles,
 } from 'lucide-react';
 import heroImg from './assets/WhatsApp Image 2026-05-10 at 10.48.13 PM.jpeg';
@@ -25,7 +24,7 @@ const GMAIL_COMPOSE = 'https://mail.google.com/mail/?view=cm&fs=1&to=';
 const ROLES = [
   'Computer Science Engineer',
   'Full-Stack Developer',
-  'AI / RAG Enthusiast',
+  'Gen AI Enthusiast',
   'API Builder',
   'Problem Solver',
 ];
@@ -151,7 +150,7 @@ const skillGroups = [
   {
     icon: Terminal,
     title: 'AI / ML',
-    chips: ['LangChain', 'Mistral AI', 'RAG', 'Chroma', 'Prompt Engineering'],
+    chips: ['Gen AI', 'LangChain', 'Mistral AI', 'Chroma'],
   },
   {
     icon: FileText,
@@ -251,7 +250,7 @@ const App = () => {
                 className="hero-bio"
               >
                 Computer Science Engineer from <strong>BUP '24 batch</strong>, building intelligent
-                applications — from RAG systems with LangChain to full-stack platforms with React & Node.
+                applications — from Gen AI tools with LangChain to full-stack platforms with React & Node.
               </motion.p>
 
               <motion.div
@@ -325,16 +324,12 @@ const App = () => {
             <motion.div variants={fadeUp} className="about-text">
               <p>
                 I'm <strong>Abdullah Al Hossain Shanto</strong>, a Computer Science student at
-                Bangladesh University of Professionals. I build web apps, REST APIs, and AI-powered
-                tools — and I enjoy every layer of the stack, from database schemas to UI details.
+                Bangladesh University of Professionals. I build web apps, REST APIs, and
+                AI-powered tools.
               </p>
               <p>
-                Lately I've been working with <strong>Retrieval-Augmented Generation</strong>,
-                building assistants that answer questions over your own documents using LangChain,
-                Mistral AI, and vector stores.
-              </p>
-              <p>
-                I like simple, maintainable code and shipping features that actually get used.
+                Lately I've been working with <strong>Gen AI</strong>, building intelligent
+                assistants using LangChain, Mistral AI, and vector databases.
               </p>
             </motion.div>
 
@@ -342,20 +337,16 @@ const App = () => {
               <div className="quick-facts-title">Quick Facts</div>
               <ul>
                 <li>
-                  <span className="qf-icon"><GraduationCap size={17} /></span>
-                  <span><strong>B.Sc in CSE</strong> · BUP · CGPA 3.80/4.00</span>
-                </li>
-                <li>
                   <span className="qf-icon"><MapPin size={17} /></span>
                   <span><strong>Based in</strong> Dhaka, Bangladesh</span>
                 </li>
                 <li>
                   <span className="qf-icon"><Code size={17} /></span>
-                  <span><strong>Comfortable with</strong> C, C++, Java, JS, Python, SQL</span>
+                  <span><strong>Languages</strong> C, C++, Java, JS, Python, SQL</span>
                 </li>
                 <li>
                   <span className="qf-icon"><Sparkles size={17} /></span>
-                  <span><strong>Focus</strong> RAG, Full-stack, APIs</span>
+                  <span><strong>Focus</strong> Gen AI, Full-stack, APIs</span>
                 </li>
               </ul>
             </motion.div>
